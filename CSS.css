@@ -1,0 +1,415 @@
+.BAR {
+    position: absolute;
+    width: 1280px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, rgba(47, 47, 47, 0.8) 0%, rgba(47, 47, 47, 0.2) 100%);
+    backdrop-filter: blur(6px);
+}
+
+.TWTOUR {
+    position: absolute;
+    width: 167px;
+    height: 32px;
+    left: 40px;
+    top: 24px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -5px;
+
+    color: #CCFCCB;
+
+}
+
+.CITY {
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    left: 763px;
+    top: 24px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1px;
+
+    color: #CCFCCB;
+}
+
+.local {
+    position: absolute;
+    width: 63px;
+    height: 32px;
+    left: 867px;
+    top: 24px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1px;
+
+    color: #CCFCCB;
+}
+
+.eat {
+    position: absolute;
+    width: 63px;
+    height: 32px;
+    left: 970px;
+    top: 24px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1px;
+
+    color: #CCFCCB;
+
+}
+
+.action {
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    left: 1073px;
+    top: 24px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1px;
+
+    color: #CCFCCB;
+}
+
+.global {
+    position: absolute;
+    left: 91.45%;
+    right: 6.25%;
+    top: 6.25%;
+    bottom: 6.25%;
+}
+
+.CN {
+    position: absolute;
+    width: 63px;
+    height: 8px;
+    left: 1177px;
+    top: 44px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #CCFCCB;
+}
+
+.back {
+    position: absolute;
+    width: 1280px;
+    height: 532px;
+    left: 0px;
+    top: 75px;
+}
+
+.titlelocal {
+    position: absolute;
+    width: 477px;
+    height: 51px;
+    left: 40px;
+    top: 58px;
+}
+
+.title {
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+
+    color: #ffffff;
+}
+
+.lefttextuplocal {
+    position: absolute;
+    width: 345px;
+    height: 110px;
+    left: 68px;
+    top: 131px;
+}
+
+.lefttextup {
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #ffffff;
+}
+
+.lefttextdownlocal {
+    position: absolute;
+    width: 345px;
+    height: 110px;
+    left: 68px;
+    top: 163px;
+}
+
+.lefttextdown {
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+
+    color: #ffffff;
+}
+
+.downleft {
+    position: static;
+    width: 73px;
+    height: 16px;
+    left: 40px;
+    top: 304px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: 3px;
+
+    color: #000000;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.downright {
+    position: static;
+    width: 73px;
+    height: 16px;
+    left: 40px;
+    top: 8px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: 3px;
+
+    color: #000000;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.downleftback {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 40px;
+
+    position: absolute;
+    width: 70px;
+    height: 15px;
+    left: 40px;
+    top: 302px;
+
+    background: #F3B61E;
+    border-radius: 30px;
+}
+
+.downrightback {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 40px;
+
+    position: absolute;
+    width: 70px;
+    height: 15px;
+    left: 260px;
+    top: 302px;
+
+    background: #F3B61E;
+    border-radius: 30px;
+}
+
+.righttext {
+    position: absolute;
+    width: 682px;
+    height: 399px;
+    left: 558px;
+    top: 127px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #ffffff;
+
+}
+
+
+
+.down {
+    position: absolute;
+    width: 167px;
+    height: 32px;
+    left: 556px;
+    top: 30px;
+
+    font-family: Yantramanav;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 0px;
+    /* or 0% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F0EEEE;
+}
+
+
+.Rectangle22 {
+    position: absolute;
+    width: 1280px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, rgba(47, 47, 47, 0.8) 0%, rgba(47, 47, 47, 0.2) 100%);
+    backdrop-filter: blur(6px);
+}
+
+.downcolor {
+    position: absolute;
+    width: 1280px;
+    height: 80px;
+    left: 0px;
+    top: 992px;
+
+    background-color: #2F2F2F;
+}
+
+.middleback {
+    position: absolute;
+    width: 1280px;
+    height: 400px;
+    left: 0px;
+    top: 607px;
+
+    background-color: #2F2F2F;
+}
+
+.vectorup {
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    height: 15px;
+    width: 10px;
+
+}
+
+.vectordown {
+    position: absolute;
+    left: -17px;
+    top: 16px;
+    height: 8px;
+    width: 6px;
+}
+
+.vectordown2 {
+    position: absolute;
+    left: -25px;
+    top: 4;
+    height: 20px;
+    width: 20px;
+}
+
+.vectortop {
+    position: absolute;
+    right: 8px;
+    top: 17px;
+    height: 15px;
+    width: 15px;
+}
